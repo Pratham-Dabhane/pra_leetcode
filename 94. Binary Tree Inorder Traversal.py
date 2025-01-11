@@ -7,7 +7,7 @@ class TreeNode(object):
 class Solution(object):
 
 
-# Recursive Method 
+# Iterative Method 
     def inorderTraversal(self, root):
         res = []
         stack = []
@@ -25,7 +25,7 @@ class Solution(object):
             cur = cur.right
 
 
-# Iterative Method
+# Recursive Method
             # Recursively calls the InOrder function for traversal
             def inorder(root):
                 inorder(root.left)
