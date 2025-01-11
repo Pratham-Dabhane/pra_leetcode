@@ -8,7 +8,6 @@ class Solution(object):
 
 
 # Recursive Method 
-
     def inorderTraversal(self, root):
         res = []
         stack = []
